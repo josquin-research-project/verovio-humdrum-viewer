@@ -19,6 +19,7 @@ permalink: /scripts/listeners.js
 //
 
 document.addEventListener("DOMContentLoaded", function() {
+	console.log("THIS IS AN ARCHIVAL VERSION OF VHV FROM 23 JUNE 2017");
 	{% if site.local == "yes" %}
 		downloadVerovioToolkit('/scripts/local/verovio-toolkit.js');
 	{% else %}
