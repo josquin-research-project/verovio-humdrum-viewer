@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	{% if site.local == "yes" %}
 		downloadVerovioToolkit('/scripts/local/verovio-toolkit.js');
 	{% else %}
-		downloadVerovioToolkit('http://verovio-script.humdrum.org/scripts/verovio-toolkit.js');
+		downloadVerovioToolkit('http://verovio2017.humdrum.org/scripts/verovio-toolkit.js');
 	{% endif %}
 
 	CGI = GetCgiParameters();
